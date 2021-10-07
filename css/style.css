@@ -29,7 +29,6 @@ img{
     justify-content: space-evenly;
     align-items: center;
     height: 100%;
-    color: #fff;
     display: flex;
     background-image: linear-gradient(45deg, #000, rgb(0, 0, 0)),url(../img/colada1.jpg);
     background-position: 60% 90%;
@@ -38,20 +37,21 @@ img{
     background-blend-mode: screen;
     padding: 3rem; 
     margin: 0 auto;
-    font-family: 'Architects Daughter', cursive;
-    font-size: 2rem;
-}
-@media (min-width: 768px){
-    .header-container{
-        font-size: 3rem;
-    }
 }
 .header-title{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Architects Daughter', cursive;
     letter-spacing: 2px;
     margin: 0 auto; 
     color: rgb(194, 209, 54);
     text-transform: uppercase;
-
+    
+}
+@media (min-width: 768px){
+    .header-title{
+        font-size: 5rem;
+    }
 }
 
 .header-construction{
